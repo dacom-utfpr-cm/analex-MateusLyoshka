@@ -3,134 +3,747 @@
 	<automaton>
 		<!--The list of states.-->
 		<state id="0" name="q0">
-			<x>101.0</x>
-			<y>475.0</y>
-			<initial/>
+			<x>1535.0</x>
+			<y>937.0</y>
 			<output/>
 		</state>
 		<state id="1" name="q1">
-			<x>206.0</x>
-			<y>231.0</y>
+			<x>1399.0</x>
+			<y>691.0</y>
 			<output/>
 		</state>
 		<state id="2" name="q2">
-			<x>330.0</x>
-			<y>231.0</y>
+			<x>1349.0</x>
+			<y>619.0</y>
 			<output/>
 		</state>
 		<state id="3" name="q3">
-			<x>451.0</x>
-			<y>231.0</y>
+			<x>1420.0</x>
+			<y>532.0</y>
 			<output/>
 		</state>
 		<state id="4" name="q4">
-			<x>582.0</x>
-			<y>231.0</y>
-			<output>INT</output>
+			<x>1511.0</x>
+			<y>523.0</y>
+			<output>INT\n</output>
 		</state>
 		<state id="5" name="q5">
-			<x>222.0</x>
-			<y>335.0</y>
+			<x>1472.0</x>
+			<y>745.0</y>
 			<output/>
 		</state>
 		<state id="6" name="q6">
-			<x>329.0</x>
-			<y>334.0</y>
-			<output/>
+			<x>1484.0</x>
+			<y>652.0</y>
+			<output>IF\n</output>
 		</state>
 		<state id="7" name="q7">
-			<x>447.0</x>
-			<y>334.0</y>
+			<x>1274.0</x>
+			<y>568.0</y>
 			<output/>
 		</state>
 		<state id="8" name="q8">
-			<x>591.0</x>
-			<y>332.0</y>
+			<x>1280.0</x>
+			<y>461.0</y>
 			<output/>
 		</state>
 		<state id="9" name="q9">
-			<x>729.0</x>
-			<y>332.0</y>
+			<x>1348.0</x>
+			<y>396.0</y>
 			<output/>
 		</state>
 		<state id="10" name="q10">
-			<x>857.0</x>
-			<y>332.0</y>
-			<output>WHILE</output>
+			<x>1461.0</x>
+			<y>382.0</y>
+			<output/>
 		</state>
 		<state id="11" name="q11">
-			<x>229.0</x>
-			<y>475.0</y>
-			<output>PLUS</output>
+			<x>1566.0</x>
+			<y>409.0</y>
+			<output>ELSE\n</output>
 		</state>
 		<state id="12" name="q12">
-			<x>377.0</x>
-			<y>566.0</y>
-			<output>LESS</output>
+			<x>1243.0</x>
+			<y>617.0</y>
+			<output/>
 		</state>
 		<state id="13" name="q13">
-			<x>517.0</x>
-			<y>668.0</y>
-			<output>LESS_EQUAL</output>
+			<x>1225.0</x>
+			<y>492.0</y>
+			<output/>
 		</state>
 		<state id="14" name="q14">
-			<x>231.0</x>
-			<y>565.0</y>
+			<x>1263.0</x>
+			<y>353.0</y>
 			<output/>
 		</state>
 		<state id="15" name="q15">
-			<x>373.0</x>
-			<y>668.0</y>
-			<output> </output>
+			<x>1401.0</x>
+			<y>259.0</y>
+			<output/>
+		</state>
+		<state id="16" name="q16">
+			<x>1531.0</x>
+			<y>298.0</y>
+			<output/>
+		</state>
+		<state id="17" name="q17">
+			<x>1634.0</x>
+			<y>389.0</y>
+			<output>FLOAT\n</output>
+		</state>
+		<state id="18" name="q18">
+			<x>1237.0</x>
+			<y>691.0</y>
+			<output/>
+		</state>
+		<state id="19" name="q19">
+			<x>1173.0</x>
+			<y>530.0</y>
+			<output/>
+		</state>
+		<state id="20" name="q20">
+			<x>1211.0</x>
+			<y>336.0</y>
+			<output/>
+		</state>
+		<state id="21" name="q21">
+			<x>1339.0</x>
+			<y>224.0</y>
+			<output/>
+		</state>
+		<state id="22" name="q22">
+			<x>1517.0</x>
+			<y>183.0</y>
+			<output/>
+		</state>
+		<state id="23" name="q23">
+			<x>1693.0</x>
+			<y>217.0</y>
+			<output/>
+		</state>
+		<state id="24" name="q24">
+			<x>1708.0</x>
+			<y>387.0</y>
+			<output>RETURN\n</output>
+		</state>
+		<state id="25" name="q25">
+			<x>1262.0</x>
+			<y>747.0</y>
+			<output/>
+		</state>
+		<state id="26" name="q26">
+			<x>1105.0</x>
+			<y>456.0</y>
+			<output/>
+		</state>
+		<state id="27" name="q27">
+			<x>1186.0</x>
+			<y>271.0</y>
+			<output/>
+		</state>
+		<state id="28" name="q28">
+			<x>1377.0</x>
+			<y>154.0</y>
+			<output/>
+		</state>
+		<state id="29" name="q29">
+			<x>1833.0</x>
+			<y>201.0</y>
+			<output>VOID\n</output>
+		</state>
+		<state id="30" name="q30">
+			<x>1275.0</x>
+			<y>808.0</y>
+			<output/>
+		</state>
+		<state id="31" name="q31">
+			<x>1137.0</x>
+			<y>605.0</y>
+			<output/>
+		</state>
+		<state id="32" name="q32">
+			<x>1054.0</x>
+			<y>405.0</y>
+			<output/>
+		</state>
+		<state id="33" name="q33">
+			<x>1276.0</x>
+			<y>134.0</y>
+			<output/>
+		</state>
+		<state id="34" name="q34">
+			<x>1572.0</x>
+			<y>18.0</y>
+			<output/>
+		</state>
+		<state id="35" name="q35">
+			<x>1902.0</x>
+			<y>163.0</y>
+			<output>WHILE\n</output>
+		</state>
+		<state id="36" name="q36">
+			<x>1444.0</x>
+			<y>1227.0</y>
+			<output>PLUS</output>
+		</state>
+		<state id="37" name="q37">
+			<x>1826.0</x>
+			<y>912.0</y>
+			<output>MINUS\n</output>
+		</state>
+		<state id="38" name="q38">
+			<x>1904.0</x>
+			<y>865.0</y>
+			<output>TIMES\n</output>
+		</state>
+		<state id="39" name="q39">
+			<x>1725.0</x>
+			<y>863.0</y>
+			<output/>
+		</state>
+		<state id="40" name="q40">
+			<x>1916.0</x>
+			<y>925.0</y>
+			<output/>
+		</state>
+		<state id="41" name="q41">
+			<x>1992.0</x>
+			<y>1012.0</y>
+			<output>LESS_EQUAL\n</output>
+		</state>
+		<state id="42" name="q42">
+			<x>2021.0</x>
+			<y>925.0</y>
+			<output>LESS\n</output>
+		</state>
+		<state id="43" name="q43">
+			<x>1867.0</x>
+			<y>973.0</y>
+			<output/>
+		</state>
+		<state id="44" name="q44">
+			<x>1943.0</x>
+			<y>972.0</y>
+			<output>GREATER_EQUAL\n</output>
+		</state>
+		<state id="45" name="q45">
+			<x>1725.0</x>
+			<y>986.0</y>
+			<output>GREATER\n</output>
+		</state>
+		<state id="46" name="q46">
+			<x>1753.0</x>
+			<y>1021.0</y>
+			<output/>
+		</state>
+		<state id="47" name="q47">
+			<x>1940.0</x>
+			<y>1073.0</y>
+			<output>EQUALS\n</output>
+		</state>
+		<state id="48" name="q48">
+			<x>1915.0</x>
+			<y>1112.0</y>
+			<output>ATTRIBUTIONS\n</output>
+		</state>
+		<state id="49" name="q49">
+			<x>1687.0</x>
+			<y>1048.0</y>
+			<output/>
+		</state>
+		<state id="50" name="q50">
+			<x>1826.0</x>
+			<y>1088.0</y>
+			<output>DIFFERENT\n</output>
+		</state>
+		<state id="51" name="q51">
+			<x>1731.0</x>
+			<y>1084.0</y>
+			<output>LPAREN\n</output>
+		</state>
+		<state id="52" name="q52">
+			<x>1646.0</x>
+			<y>1092.0</y>
+			<output>RPAREN\n</output>
+		</state>
+		<state id="53" name="q53">
+			<x>1685.0</x>
+			<y>1155.0</y>
+			<output>LBRACKETS\n</output>
+		</state>
+		<state id="54" name="q54">
+			<x>1607.0</x>
+			<y>1152.0</y>
+			<output>RBRACKETS\n</output>
+		</state>
+		<state id="55" name="q55">
+			<x>1619.0</x>
+			<y>1215.0</y>
+			<output>LBRACES\n</output>
+		</state>
+		<state id="56" name="q56">
+			<x>1533.0</x>
+			<y>1189.0</y>
+			<output>RBRACES\n</output>
+		</state>
+		<state id="57" name="q57">
+			<x>1584.0</x>
+			<y>1276.0</y>
+			<output>SEMICOLON\n</output>
+		</state>
+		<state id="58" name="q58">
+			<x>1517.0</x>
+			<y>1253.0</y>
+			<output>COMMA\n</output>
+		</state>
+		<state id="59" name="q59">
+			<x>1245.0</x>
+			<y>1016.0</y>
+			<output/>
+		</state>
+		<state id="60" name="q60">
+			<x>1440.0</x>
+			<y>598.0</y>
+			<output>IF\nLPAREN\n</output>
+		</state>
+		<state id="61" name="q61">
+			<x>1221.0</x>
+			<y>917.0</y>
+			<output/>
+		</state>
+		<state id="62" name="q62">
+			<x>1345.0</x>
+			<y>497.0</y>
+			<output>INT\nLPAREN\n</output>
+		</state>
+		<state id="63" name="q63">
+			<x>1483.0</x>
+			<y>449.0</y>
+			<output>INT\nRPAREN\n</output>
+		</state>
+		<state id="64" name="q64">
+			<x>1404.0</x>
+			<y>320.0</y>
+			<output>ELSE\nLBRACKETS</output>
+		</state>
+		<state id="65" name="q65">
+			<x>1636.0</x>
+			<y>310.0</y>
+			<output>FLOAT\nLPAREN</output>
+		</state>
+		<state id="66" name="q66">
+			<x>1590.0</x>
+			<y>234.0</y>
+			<output>FLOAT\nRPAREN\n</output>
+		</state>
+		<state id="67" name="q67">
+			<x>1739.0</x>
+			<y>191.0</y>
+			<output>RETURN\nLPAREN</output>
+		</state>
+		<state id="68" name="q68">
+			<x>1757.0</x>
+			<y>249.0</y>
+			<output>RETURN\nSEMICOLON\n</output>
+		</state>
+		<state id="69" name="q69">
+			<x>1640.0</x>
+			<y>124.0</y>
+			<output>VOID\nLPAREN\n</output>
+		</state>
+		<state id="70" name="q70">
+			<x>1563.0</x>
+			<y>105.0</y>
+			<output>VOID\nRPAREN\n</output>
+		</state>
+		<state id="71" name="q71">
+			<x>1503.0</x>
+			<y>86.0</y>
+			<output>VOID\nSEMICOLON\n</output>
+		</state>
+		<state id="72" name="q72">
+			<x>1724.0</x>
+			<y>6.0</y>
+			<output>WHILE\nLPAREN\n</output>
+		</state>
+		<state id="73" name="q73">
+			<x>1849.0</x>
+			<y>840.0</y>
+			<output>DIVIDE\n</output>
+		</state>
+		<state id="74" name="q74">
+			<x>796.0</x>
+			<y>1099.0</y>
+			<output>ID\nLPAREN\n</output>
+		</state>
+		<state id="75" name="q75">
+			<x>911.0</x>
+			<y>1129.0</y>
+			<output>ID\nRPAREN\n</output>
+		</state>
+		<state id="76" name="q76">
+			<x>831.0</x>
+			<y>1172.0</y>
+			<output>ID\nLBRACKETS\n</output>
+		</state>
+		<state id="77" name="q77">
+			<x>949.0</x>
+			<y>1171.0</y>
+			<output>ID\nRBRACKETS\n</output>
+		</state>
+		<state id="78" name="q78">
+			<x>878.0</x>
+			<y>1219.0</y>
+			<output>ID\nLBRACES\n</output>
+		</state>
+		<state id="79" name="q79">
+			<x>1032.0</x>
+			<y>1186.0</y>
+			<output>ID\nRBRACES\n</output>
+		</state>
+		<state id="80" name="q80">
+			<x>968.0</x>
+			<y>1250.0</y>
+			<output>ID\nSEMICOLLON\n</output>
+		</state>
+		<state id="81" name="q81">
+			<x>970.0</x>
+			<y>1308.0</y>
+			<output>ID\nCOMMA\n</output>
+		</state>
+		<state id="82" name="q82">
+			<x>1125.0</x>
+			<y>1217.0</y>
+			<output>ID\n</output>
+		</state>
+		<state id="83" name="q83">
+			<x>1115.0</x>
+			<y>1300.0</y>
+			<output>ID\nPLUS\n</output>
+		</state>
+		<state id="84" name="q84">
+			<x>1205.0</x>
+			<y>1162.0</y>
+			<output>ID\nMINUS\n</output>
+		</state>
+		<state id="85" name="q85">
+			<x>1193.0</x>
+			<y>1298.0</y>
+			<output>ID\nTIMES\n</output>
+		</state>
+		<state id="86" name="q86">
+			<x>1283.0</x>
+			<y>1271.0</y>
+			<output>ID\nDIVIDE\n</output>
+		</state>
+		<state id="87" name="q87">
+			<x>1310.0</x>
+			<y>1083.0</y>
+			<output/>
+		</state>
+		<state id="88" name="q88">
+			<x>1072.0</x>
+			<y>1250.0</y>
+			<output/>
+		</state>
+		<state id="89" name="q89">
+			<x>1099.0</x>
+			<y>1442.0</y>
+			<output>ID\nLESS\n</output>
+		</state>
+		<state id="90" name="q90">
+			<x>1172.0</x>
+			<y>1465.0</y>
+			<output>ID\nLESS_EQUAL\n</output>
+		</state>
+		<state id="91" name="q91">
+			<x>1287.0</x>
+			<y>1166.0</y>
+			<output>ID\nGRATER\n</output>
+		</state>
+		<state id="92" name="q92">
+			<x>1370.0</x>
+			<y>1139.0</y>
+			<output>ID\nGREATER_EQUAL\n</output>
+		</state>
+		<state id="93" name="q93">
+			<x>1146.0</x>
+			<y>1369.0</y>
+			<output/>
+		</state>
+		<state id="94" name="q94">
+			<x>976.0</x>
+			<y>1358.0</y>
+			<output>ID\nEQUALS\n</output>
+		</state>
+		<state id="95" name="q95">
+			<x>1067.0</x>
+			<y>1361.0</y>
+			<output>ID\nATTRIBUTIONS\n</output>
+		</state>
+		<state id="96" name="q96">
+			<x>1248.0</x>
+			<y>1322.0</y>
+			<output/>
+		</state>
+		<state id="97" name="q97">
+			<x>1229.0</x>
+			<y>1383.0</y>
+			<output>ID\nDIFFERENT\n</output>
+		</state>
+		<state id="98" name="q98">
+			<x>945.0</x>
+			<y>931.0</y>
+			<output>NUMBER\nLPAREN\n</output>
+		</state>
+		<state id="99" name="q99">
+			<x>628.0</x>
+			<y>839.0</y>
+			<output>NUMBER\nRPAREN\n</output>
+		</state>
+		<state id="100" name="q100">
+			<x>764.0</x>
+			<y>841.0</y>
+			<output>NUMBER\nLBRACKETS\n</output>
+		</state>
+		<state id="101" name="q101">
+			<x>646.0</x>
+			<y>777.0</y>
+			<output>NUMBER\nRBRACKETS\n</output>
+		</state>
+		<state id="102" name="q102">
+			<x>743.0</x>
+			<y>771.0</y>
+			<output>NUMBER\nLBRACES\n</output>
+		</state>
+		<state id="103" name="q103">
+			<x>672.0</x>
+			<y>691.0</y>
+			<output>NUMBER\nRBRACES\n</output>
+		</state>
+		<state id="104" name="q104">
+			<x>816.0</x>
+			<y>692.0</y>
+			<output>NUMBER\nSEMICOLLUM\N</output>
+		</state>
+		<state id="105" name="q105">
+			<x>735.0</x>
+			<y>596.0</y>
+			<output>NUMBER\nCOMMA\n</output>
+		</state>
+		<state id="106" name="q106">
+			<x>812.0</x>
+			<y>604.0</y>
+			<output>NUMBER\n</output>
+		</state>
+		<state id="107" name="q107">
+			<x>842.0</x>
+			<y>778.0</y>
+			<output/>
+		</state>
+		<state id="108" name="q108">
+			<x>899.0</x>
+			<y>620.0</y>
+			<output>NUMBER\nEQUALS\n</output>
+		</state>
+		<state id="109" name="q109">
+			<x>968.0</x>
+			<y>665.0</y>
+			<output>NUMBER\nATRIBUTTIONS\n</output>
+		</state>
+		<state id="110" name="q110">
+			<x>952.0</x>
+			<y>783.0</y>
+			<output/>
+		</state>
+		<state id="111" name="q111">
+			<x>1020.0</x>
+			<y>691.0</y>
+			<output>NUMBER\nLESS\n</output>
+		</state>
+		<state id="112" name="q112">
+			<x>1062.0</x>
+			<y>738.0</y>
+			<output>NUMBER\NLESS_EQUAL\n</output>
+		</state>
+		<state id="113" name="q113">
+			<x>1097.0</x>
+			<y>784.0</y>
+			<output>NUMBER\nPLUS\n</output>
+		</state>
+		<state id="115" name="q115">
+			<x>1067.0</x>
+			<y>870.0</y>
+			<output/>
+		</state>
+		<state id="116" name="q116">
+			<x>974.0</x>
+			<y>833.0</y>
+			<output>NUMBER\nDIFFERENT\n</output>
+		</state>
+		<state id="117" name="q117">
+			<x>842.0</x>
+			<y>969.0</y>
+			<output>NUMBER\nTIMES\n</output>
+		</state>
+		<state id="118" name="q118">
+			<x>746.0</x>
+			<y>1004.0</y>
+			<output>NUMBER\nDIVIDE\n</output>
+		</state>
+		<state id="119" name="q119">
+			<x>844.0</x>
+			<y>1029.0</y>
+			<output>NUMBER\nMINUS\n</output>
+		</state>
+		<state id="120" name="q120">
+			<x>1133.0</x>
+			<y>994.0</y>
+			<output/>
+		</state>
+		<state id="121" name="q121">
+			<x>973.0</x>
+			<y>1007.0</y>
+			<output>NUMBER\nGREATER\n</output>
+		</state>
+		<state id="122" name="q122">
+			<x>1041.0</x>
+			<y>1040.0</y>
+			<output>NUMBER\nGREATER_EQUAL\n</output>
 		</state>
 		<!--The list of transitions.-->
 		<transition>
-			<from>5</from>
-			<to>6</to>
+			<from>110</from>
+			<to>111</to>
+			<read/>
+			<transout>NUMBER\nLESS\n</transout>
+		</transition>
+		<transition>
+			<from>15</from>
+			<to>16</to>
+			<read>t</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>115</to>
+			<read>!</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>32</from>
+			<to>33</to>
+			<read>l</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>83</to>
+			<read>+</read>
+			<transout>ID\nPLUS\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>25</to>
+			<read>v</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>28</from>
+			<to>70</to>
+			<read>)</read>
+			<transout>VOID\nRPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>110</to>
+			<read>&lt;</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>49</from>
+			<to>50</to>
+			<read>=</read>
+			<transout>DIFFERENT\n</transout>
+		</transition>
+		<transition>
+			<from>87</from>
+			<to>92</to>
+			<read>=</read>
+			<transout>ID\nGREATER_EQUAL\n</transout>
+		</transition>
+		<transition>
+			<from>14</from>
+			<to>15</to>
+			<read>a</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>37</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>45</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>87</from>
+			<to>91</to>
+			<read>" " \n</read>
+			<transout>ID\nGRATER\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>106</to>
+			<read/>
+			<transout>NUMBER\n</transout>
+		</transition>
+		<transition>
+			<from>120</from>
+			<to>122</to>
+			<read>=</read>
+			<transout>NUMBER\nGREATER_EQUAL\n</transout>
+		</transition>
+		<transition>
+			<from>26</from>
+			<to>27</to>
+			<read>i</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>16</from>
+			<to>65</to>
+			<read>(</read>
+			<transout>FLOAT\nLPAREN</transout>
+		</transition>
+		<transition>
+			<from>120</from>
+			<to>121</to>
+			<read/>
+			<transout>NUMBER\nGREATER\n</transout>
+		</transition>
+		<transition>
+			<from>22</from>
+			<to>23</to>
+			<read>n</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>30</from>
+			<to>31</to>
 			<read>h</read>
 			<transout/>
 		</transition>
 		<transition>
 			<from>0</from>
-			<to>11</to>
-			<read>+</read>
-			<transout>PLUS</transout>
-		</transition>
-		<transition>
-			<from>3</from>
-			<to>4</to>
-			<read>0x0A</read>
-			<transout>INT</transout>
-		</transition>
-		<transition>
-			<from>1</from>
-			<to>2</to>
-			<read>n</read>
-			<transout/>
-		</transition>
-		<transition>
-			<from>8</from>
-			<to>9</to>
-			<read>e</read>
-			<transout/>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>5</to>
-			<read>w</read>
-			<transout/>
-		</transition>
-		<transition>
-			<from>0</from>
-			<to>14</to>
-			<read>&lt;</read>
-			<transout/>
-		</transition>
-		<transition>
-			<from>15</from>
-			<to>13</to>
-			<read> </read>
-			<transout>LESS_EQUAL</transout>
+			<to>54</to>
+			<read>]</read>
+			<transout>RBRACKETS\n</transout>
 		</transition>
 		<transition>
 			<from>2</from>
@@ -139,28 +752,562 @@
 			<transout/>
 		</transition>
 		<transition>
-			<from>6</from>
-			<to>7</to>
-			<read>i</read>
+			<from>10</from>
+			<to>64</to>
+			<read>{</read>
+			<transout>ELSE\nLBRACKETS</transout>
+		</transition>
+		<transition>
+			<from>35</from>
+			<to>0</to>
+			<read/>
 			<transout/>
+		</transition>
+		<transition>
+			<from>18</from>
+			<to>19</to>
+			<read>e</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>93</to>
+			<read>&lt;</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>46</to>
+			<read>=</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>118</to>
+			<read>/</read>
+			<transout>NUMBER\nDIVIDE\n</transout>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read> </read>
+			<transout>INT\n</transout>
+		</transition>
+		<transition>
+			<from>17</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>25</from>
+			<to>26</to>
+			<read>o</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>84</to>
+			<read>-</read>
+			<transout>ID\nMINUS\n</transout>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>6</to>
+			<read>" "</read>
+			<transout>IF\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>78</to>
+			<read>{</read>
+			<transout>ID\nLBRACES\n</transout>
+		</transition>
+		<transition>
+			<from>41</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>21</from>
+			<to>22</to>
+			<read>r</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>18</to>
+			<read>r</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>19</from>
+			<to>20</to>
+			<read>t</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>107</to>
+			<read>=</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>11</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>27</from>
+			<to>28</to>
+			<read>d</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>60</to>
+			<read>(</read>
+			<transout>IF\nLPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>119</to>
+			<read>-</read>
+			<transout>NUMBER\nMINUS\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>43</to>
+			<read>&gt;</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>29</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>51</to>
+			<read>(</read>
+			<transout>LPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>24</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>11</to>
+			<read>\n</read>
+			<transout>ELSE\n</transout>
 		</transition>
 		<transition>
 			<from>9</from>
 			<to>10</to>
-			<read> \n</read>
-			<transout>WHILE</transout>
-		</transition>
-		<transition>
-			<from>14</from>
-			<to>15</to>
-			<read>=</read>
-			<transout> </transout>
+			<read>e</read>
+			<transout/>
 		</transition>
 		<transition>
 			<from>0</from>
-			<to>1</to>
+			<to>30</to>
+			<read>w</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>102</to>
+			<read>{</read>
+			<transout>NUMBER\nLBRACES\n</transout>
+		</transition>
+		<transition>
+			<from>43</from>
+			<to>44</to>
+			<read>=</read>
+			<transout>GREATER_EQUAL\n</transout>
+		</transition>
+		<transition>
+			<from>16</from>
+			<to>66</to>
+			<read>)</read>
+			<transout>FLOAT\nRPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>46</from>
+			<to>48</to>
+			<read>\n ''</read>
+			<transout>ATTRIBUTIONS\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>103</to>
+			<read>}</read>
+			<transout>NUMBER\nRBRACES\n</transout>
+		</transition>
+		<transition>
+			<from>28</from>
+			<to>29</to>
+			<read>' '</read>
+			<transout>VOID\n</transout>
+		</transition>
+		<transition>
+			<from>33</from>
+			<to>34</to>
+			<read>e</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>23</from>
+			<to>24</to>
+			<read>' '</read>
+			<transout>RETURN\n</transout>
+		</transition>
+		<transition>
+			<from>34</from>
+			<to>35</to>
+			<read>\n</read>
+			<transout>WHILE\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>88</to>
+			<read>=</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>53</to>
+			<read>[</read>
+			<transout>LBRACKETS\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>77</to>
+			<read>]</read>
+			<transout>ID\nRBRACKETS\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>80</to>
+			<read>;</read>
+			<transout>ID\nSEMICOLLON\n</transout>
+		</transition>
+		<transition>
+			<from>110</from>
+			<to>112</to>
+			<read>=</read>
+			<transout>NUMBER\NLESS_EQUAL\n</transout>
+		</transition>
+		<transition>
+			<from>5</from>
+			<to>6</to>
+			<read>\n</read>
+			<transout>IF\n</transout>
+		</transition>
+		<transition>
+			<from>16</from>
+			<to>17</to>
+			<read>' '</read>
+			<transout>FLOAT\n</transout>
+		</transition>
+		<transition>
+			<from>8</from>
+			<to>9</to>
+			<read>s</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>64</to>
+			<read>(</read>
+			<transout>ELSE\nLBRACKETS</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>57</to>
+			<read>;</read>
+			<transout>SEMICOLON\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>85</to>
+			<read>*</read>
+			<transout>ID\nTIMES\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>61</to>
+			<read>0,1,2,3,4,5,6,7,8,9</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>43</from>
+			<to>45</to>
+			<read>\n ""</read>
+			<transout>GREATER\n</transout>
+		</transition>
+		<transition>
+			<from>13</from>
+			<to>14</to>
+			<read>o</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>12</to>
+			<read>f</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>99</to>
+			<read>)</read>
+			<transout>NUMBER\nRPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>96</to>
+			<read>!</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>105</to>
+			<read>.</read>
+			<transout>NUMBER\nCOMMA\n</transout>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>4</to>
+			<read>\n</read>
+			<transout>INT\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>56</to>
+			<read>}</read>
+			<transout>RBRACES\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>113</to>
+			<read>+</read>
+			<transout>NUMBER\nPLUS\n</transout>
+		</transition>
+		<transition>
+			<from>23</from>
+			<to>67</to>
+			<read>(</read>
+			<transout>RETURN\nLPAREN</transout>
+		</transition>
+		<transition>
+			<from>16</from>
+			<to>17</to>
+			<read>\n</read>
+			<transout>FLOAT\n</transout>
+		</transition>
+		<transition>
+			<from>34</from>
+			<to>35</to>
+			<read>' '</read>
+			<transout>WHILE\n</transout>
+		</transition>
+		<transition>
+			<from>23</from>
+			<to>24</to>
+			<read>\n</read>
+			<transout>RETURN\n</transout>
+		</transition>
+		<transition>
+			<from>31</from>
+			<to>32</to>
 			<read>i</read>
 			<transout/>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>37</to>
+			<read>-</read>
+			<transout>MINUS\n</transout>
+		</transition>
+		<transition>
+			<from>39</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>81</to>
+			<read>,</read>
+			<transout>ID\nCOMMA\n</transout>
+		</transition>
+		<transition>
+			<from>107</from>
+			<to>108</to>
+			<read>=</read>
+			<transout>NUMBER\nEQUALS\n</transout>
+		</transition>
+		<transition>
+			<from>12</from>
+			<to>13</to>
+			<read>l</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>104</to>
+			<read>;</read>
+			<transout>NUMBER\nSEMICOLLUM\N</transout>
+		</transition>
+		<transition>
+			<from>28</from>
+			<to>29</to>
+			<read>\n</read>
+			<transout>VOID\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>82</to>
+			<read>" " \n</read>
+			<transout>ID\n</transout>
+		</transition>
+		<transition>
+			<from>96</from>
+			<to>97</to>
+			<read>=</read>
+			<transout>ID\nDIFFERENT\n</transout>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>5</to>
+			<read>f</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>115</from>
+			<to>116</to>
+			<read>=</read>
+			<transout>NUMBER\nDIFFERENT\n</transout>
+		</transition>
+		<transition>
+			<from>88</from>
+			<to>94</to>
+			<read>=</read>
+			<transout>ID\nEQUALS\n</transout>
+		</transition>
+		<transition>
+			<from>20</from>
+			<to>21</to>
+			<read>u</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>39</from>
+			<to>73</to>
+			<read>' ' \n</read>
+			<transout>DIVIDE\n</transout>
+		</transition>
+		<transition>
+			<from>10</from>
+			<to>11</to>
+			<read>' '</read>
+			<transout>ELSE\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>55</to>
+			<read>{</read>
+			<transout>LBRACES\n</transout>
+		</transition>
+		<transition>
+			<from>34</from>
+			<to>72</to>
+			<read>(</read>
+			<transout>WHILE\nLPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>93</from>
+			<to>89</to>
+			<read>" " \n</read>
+			<transout>ID\nLESS\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>40</to>
+			<read>&lt;</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>88</from>
+			<to>95</to>
+			<read>" " \n</read>
+			<transout>ID\nATTRIBUTIONS\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>120</to>
+			<read>&gt;</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>28</from>
+			<to>69</to>
+			<read>(</read>
+			<transout>VOID\nLPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>40</from>
+			<to>42</to>
+			<read>\n</read>
+			<transout>LESS\n</transout>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>62</to>
+			<read>(</read>
+			<transout>INT\nLPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>36</to>
+			<read>+</read>
+			<transout>PLUS</transout>
+		</transition>
+		<transition>
+			<from>38</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>39</to>
+			<read>/</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>46</from>
+			<to>47</to>
+			<read>=</read>
+			<transout>EQUALS\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>58</to>
+			<read>,</read>
+			<transout>COMMA\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>101</to>
+			<read>]</read>
+			<transout>NUMBER\nRBRACKETS\n</transout>
 		</transition>
 		<transition>
 			<from>7</from>
@@ -169,10 +1316,160 @@
 			<transout/>
 		</transition>
 		<transition>
-			<from>14</from>
-			<to>12</to>
-			<read> </read>
-			<transout>LESS</transout>
+			<from>4</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>40</from>
+			<to>42</to>
+			<read>''</read>
+			<transout>LESS\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>74</to>
+			<read>(</read>
+			<transout>ID\nLPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>98</to>
+			<read>(</read>
+			<transout>NUMBER\nLPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>107</from>
+			<to>109</to>
+			<read/>
+			<transout>NUMBER\nATRIBUTTIONS\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>76</to>
+			<read>[</read>
+			<transout>ID\nLBRACKETS\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>38</to>
+			<read>*</read>
+			<transout>TIMES\n</transout>
+		</transition>
+		<transition>
+			<from>3</from>
+			<to>63</to>
+			<read>)</read>
+			<transout>INT\nRPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>6</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>86</to>
+			<read>/[</read>
+			<transout>ID\nDIVIDE\n</transout>
+		</transition>
+		<transition>
+			<from>28</from>
+			<to>71</to>
+			<read>;</read>
+			<transout>VOID\nSEMICOLON\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>52</to>
+			<read>)</read>
+			<transout>RPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>79</to>
+			<read>}</read>
+			<transout>ID\nRBRACES\n</transout>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>100</to>
+			<read>[</read>
+			<transout>NUMBER\nLBRACKETS\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>7</to>
+			<read>e</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>87</to>
+			<read>&gt;</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>1</from>
+			<to>2</to>
+			<read>n</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>23</from>
+			<to>68</to>
+			<read>;</read>
+			<transout>RETURN\nSEMICOLON\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>1</to>
+			<read>i</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>40</from>
+			<to>41</to>
+			<read>=</read>
+			<transout>LESS_EQUAL\n</transout>
+		</transition>
+		<transition>
+			<from>93</from>
+			<to>90</to>
+			<read>=</read>
+			<transout>ID\nLESS_EQUAL\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>59</to>
+			<read>a,b,c,d,g,h,j,k,l,m,n,o,p,q,s,t,u,x,y,z</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>59</from>
+			<to>75</to>
+			<read>)</read>
+			<transout>ID\nRPAREN\n</transout>
+		</transition>
+		<transition>
+			<from>0</from>
+			<to>49</to>
+			<read>!</read>
+			<transout/>
+		</transition>
+		<transition>
+			<from>42</from>
+			<to>0</to>
+			<read/>
+			<transout/>
+		</transition>
+		<transition>
+			<from>61</from>
+			<to>117</to>
+			<read>*</read>
+			<transout>NUMBER\nTIMES\n</transout>
 		</transition>
 	</automaton>
 </structure>
